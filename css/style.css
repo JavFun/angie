@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Elite&family=Titillium+Web&display=swap');
+
+:root{
+    --color1: #1E1E1E;
+    --color2: #ED1C24;
+    --color3: #fff;
+    --color4: #EED0BB;
+}
+
+body{
+    font-family: Jacques Francois;
+    color: var(--color3);
+}
+
+header{
+    background-color: var(--color1);
+    padding: 40px 0;
+    color: #fff;
+}
+
+.btn-nav{
+    border: 1px solid #fff;
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 13px;
+	display: inline-block;
+    padding: 12px 40px !important;
+}
+
+#hero{
+    background-color: var(--color1);
+    padding: 40px 0;
+    
+}
+
+#hero p{
+    padding: 30px 0;
+    font-size: 21;
+    
+}
+
+.btn-hero{
+    border: 1px solid var(--color2);
+    background-color: var(--color2);
+	color: var(--color3);
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 13px;
+	display: inline-block;
+    padding: 12px 40px !important;
+    text-transform: uppercase;
+}
+
+.pad{
+    padding: 20px 0;
+}
+
+.marg-hero{
+    margin-left: 30px;
+}
+
+#collage{
+    background-color: var(--color2);
+    padding: 40px 0;
+}
+
+#espacio{
+    background-color: var(--color1);
+    padding: 20px 0;
+}
+
+#director{
+    background-color: var(--color2);
+    padding: 100px 0;
+    background-image:  url("/img/Group\ 11.png");
+    background-size: 1350px;
+    padding-bottom: 300px;
+}
+
+.titulo{
+    color: var(--color1);
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.titulo-rojo{
+    color: var(--color2);
+    font-size: 90px;
+    font-weight: 300;
+}
+
+.subtitulo{
+    color: var(--color1);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#elenco{
+    background-color: var(--color1);
+    padding: 40px;
+}
+
+.btn-elenco{
+    border: 1px solid #fff;
+	text-decoration: none;
+    background-color: var(--color1);
+    color: var(--color2);
+	font-weight: 100;
+	font-size: 17px;
+    text-transform: uppercase;
+	display: inline-block;
+    padding: 12px 40px !important;
+}
+
+#datos{
+    background-color: var(--color4);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.negro{
+    color: var(--color1);
+}
+
+#producto{
+    text-align: center;
+    padding: 40px;
+    background-color: var(--color2);
+}
+
+.btn-quiz{
+    border: 1px solid  #ED1C24;
+	text-decoration: none;
+    background-color: var(--color2);
+    color: var(--color1);
+	font-weight: 100;
+	font-size: 17px;
+    text-transform: uppercase;
+	display: inline-block;
+    padding: 12px 40px !important;
+}
+
+#quiz{
+    background-color: var(--color1);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.icon{
+    color: var(--color3);
+    font-size: 20px;
+}
+
+footer{
+    background-color: var(--color1);
+    padding: 50px;
+    text-align: center;
+}
